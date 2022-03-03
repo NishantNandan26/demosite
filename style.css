@@ -1,0 +1,52 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: x-large;
+}
+li:hover{
+    cursor: pointer;
+    color: rgb(202, 18, 18);
+}
+nav{
+    width: 60vw;
+    margin-top: 10px;
+}
+.bigimage{
+    width: 95vw;
+    margin: 1rem;
+}
+.container{
+    display: flex;
+}
+.container>div{
+    text-align: center;
+    margin: 2rem;
+
+}
+.container>div>p{
+    font-size: larger;
+    line-height: 1rem;
+}
+
+h1{
+    font-weight: normal;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    font-size: x-large;
+    color: aliceblue;
+    height: 4rem;
+
+}
+footer>p{
+    padding: 1rem;
+
+}
